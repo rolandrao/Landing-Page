@@ -20,7 +20,7 @@ function App() {
                           <label for="full-name">Full Name</label>
                         </dt>
                         <dd class="col-sm-10">
-                            <label class="input-text" id="full-name">{name}</label>
+                            <input class="input-text" id="full-name"></input>
                         </dd>
                     </div>
                     <div class="row">
@@ -28,7 +28,7 @@ function App() {
                             <label for="beneficiary-email">Beneficiary Email</label>
                         </dt>
                         <dd class="col-sm-10">
-                            <label class = "input-text" id="beneficiary-email">{email}</label>
+                            <input class = "input-text" id="beneficiary-email"></input>
 
                         </dd>
                     </div>
@@ -37,7 +37,7 @@ function App() {
                             <label for="company-name">Company Name</label>
                         </dt>
                         <dd class="col-sm-10">
-                            <label class="input-text" id="company-name">{company}</label> 
+                            <input class="input-text" id="company-name"></input> 
                         </dd>
                     </div>
                     <div class="row">
